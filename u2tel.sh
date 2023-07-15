@@ -18,5 +18,7 @@ git clone https://github.com/Damontools32/u2tel/
 # Navigate into the cloned directory
 cd u2tel
 
+apt-get install nano
+
 # Open the Python script in nano for editing
 nano upload_to_telegram_bot.py
