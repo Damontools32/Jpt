@@ -21,4 +21,4 @@ systemctl enable cloud-torrent
 systemctl start cloud-torrent
 
 # بررسی وضعیت سرویس
-systemctl status cloud-torrent￼Enter
+systemctl status cloud-torrent
