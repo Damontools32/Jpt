@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Update system packages
-sudo apt update
+apt update
 
 # Install git
 apt-get install git
 
 # Install Python3 and pip
-sudo apt install python3 python3-pip
+apt install python3 python3-pip
 
 # Install telethon
 pip3 install telethon
@@ -19,4 +19,4 @@ git clone https://github.com/Damontools32/u2tel/
 cd u2tel
 
 # Open the Python script in nano for editing
-nano upload_to_telegram_bot.py
+vim upload_to_telegram_bot.py
